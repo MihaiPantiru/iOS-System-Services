@@ -193,6 +193,14 @@
                 newDeviceType = @"iPhone X (CDMA+GSM/LTE)";
             else if ([deviceType isEqualToString:@"iPhone10,6"])
                 newDeviceType = @"iPhone X (GSM/LTE)";
+            else if ([deviceType isEqualToString:@"iPhone11,2"])
+                newDeviceType = @"iPhone Xs";
+            else if ([deviceType isEqualToString:@"iPhone11,4"])
+                newDeviceType = @"iPhone Xs Max";
+            else if ([deviceType isEqualToString:@"iPhone11,6"])
+                newDeviceType = @"iPhone Xs Max";
+            else if ([deviceType isEqualToString:@"iPhone11,8"])
+                newDeviceType = @"iPhone XR";
             // iPods
             else if ([deviceType isEqualToString:@"iPod1,1"])
                 newDeviceType = @"iPod Touch 1G";
