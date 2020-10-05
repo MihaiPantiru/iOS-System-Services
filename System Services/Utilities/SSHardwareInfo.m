@@ -201,6 +201,14 @@
                 newDeviceType = @"iPhone Xs Max";
             else if ([deviceType isEqualToString:@"iPhone11,8"])
                 newDeviceType = @"iPhone XR";
+            else if ([deviceType isEqualToString:@"iPhone12,1"])
+                newDeviceType = @"iPhone 11";
+            else if ([deviceType isEqualToString:@"iPhone12,3"])
+                newDeviceType = @"iPhone 11 Pro";
+            else if ([deviceType isEqualToString:@"iPhone12,5"])
+                newDeviceType = @"iPhone 11 Pro Max";
+            else if ([deviceType isEqualToString:@"iPhone12,8"])
+                newDeviceType = @"iPhone SE 2nd Gen";
             // iPods
             else if ([deviceType isEqualToString:@"iPod1,1"])
                 newDeviceType = @"iPod Touch 1G";
